@@ -1,0 +1,94 @@
+/* Resetting some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fb;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Section */
+header {
+    background-color: #2e74b5;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header .logo img {
+    width: 50px;
+    vertical-align: middle;
+}
+
+header h1 {
+    display: inline;
+    margin-left: 10px;
+    font-size: 24px;
+}
+
+/* Products Section */
+.products {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.product {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 18%;
+    margin: 20px;
+    text-align: center;
+    padding: 20px;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.product h3 {
+    margin-top: 15px;
+    font-size: 18px;
+    color: #2e74b5;
+}
+
+.product p {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.product button {
+    background-color: #2e74b5;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.product button:hover {
+    background-color: #1f5d91;
+}
+
+/* Footer Section */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #2e74b5;
+    color: white;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
